@@ -26,5 +26,5 @@ Register on ECX website (https://ecx.website/next)
 
 ### Language
 
-All presentations at The will be in English.
+All presentations at The Next Conference will be in English.
 
