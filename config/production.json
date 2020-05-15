@@ -1,16 +1,16 @@
 {
   "basepath": "/",
-  "url": "https://hoverboard-master.firebaseapp.com/",
-  "analytics": "UA-43643469-9",
+  "url": "https://thenextconf.web.app/",
+  "analytics": "",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8",
-    "appId": "1:516409946568:web:ad5a56d452fc421c",
-    "authDomain": "hoverboard-master.firebaseapp.com",
-    "databaseURL": "https://hoverboard-master.firebaseio.com",
-    "messagingSenderId": "516409946568",
-    "projectId": "hoverboard-master",
-    "storageBucket": "hoverboard-master.appspot.com"
+    "apiKey": "AIzaSyAeg943F93QgJWVr1YQcNizlldOO2KKJjs",
+    "appId": "1:425598303186:web:1defc6e520eed0f64b260b",
+    "authDomain": "thenextconf.firebaseapp.com",
+    "databaseURL": "https://thenextconf.firebaseio.com",
+    "messagingSenderId": "425598303186",
+    "projectId": "thenextconf",
+    "storageBucket": "thenextconf.appspot.com"
   },
   "googleMapApiKey": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8"
 }

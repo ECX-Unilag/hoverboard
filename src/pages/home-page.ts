@@ -141,13 +141,13 @@ class HomePage extends ReduxMixin(PolymerElement) {
         hide-logo
       >
         <div class="home-content" layout vertical center>
-          <plastic-image
+          <plastic-images
             class="hero-logo"
-            srcset="/images/logo.svg"
+            srcset="/images/ecx.png"
             alt="{$ title $}"
           ></plastic-image>
           <div class="info-items">
-            <div class="info-item">{$ location.city $}. {$ dates $}</div>
+            <div class="info-item"> Online. {$ dates $}</div>
             <div class="info-item">{$ heroSettings.home.description $}</div>
           </div>
 
@@ -162,18 +162,6 @@ class HomePage extends ReduxMixin(PolymerElement) {
             >
               <iron-icon icon="hoverboard:movie"></iron-icon>
               {$ viewHighlights $}
-            </paper-button>
-            <paper-button
-              on-click="_scrollToTickets"
-              ga-on="click"
-              ga-event-category="tickets"
-              ga-event-action="scroll"
-              ga-event-label="hero block - scroll to tickets"
-              primary
-              invert
-            >
-              <iron-icon icon="hoverboard:ticket"></iron-icon>
-              {$ buyTicket $}
             </paper-button>
           </div>
 
@@ -241,18 +229,11 @@ class HomePage extends ReduxMixin(PolymerElement) {
           </div>
         </div>
       </hero-block>
-      {% if showForkMeBlockForProjectIds.includes(firebase.projectId) %}
-      <fork-me-block></fork-me-block>
-      {% endif %}
       <about-block></about-block>
       <speakers-block></speakers-block>
       <subscribe-block></subscribe-block>
-      <tickets-block></tickets-block>
       <gallery-block></gallery-block>
       <about-organizer-block></about-organizer-block>
-      <featured-videos></featured-videos>
-      <latest-posts-block></latest-posts-block>
-      <map-block></map-block>
       <partners-block></partners-block>
       <footer-block></footer-block>
     `;

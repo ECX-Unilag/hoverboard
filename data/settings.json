@@ -37,42 +37,21 @@
       "route": "team",
       "permalink": "/team/",
       "label": "Team"
-    },
-    {
-      "route": "blog",
-      "permalink": "/blog/",
-      "label": "Blog"
     }
   ],
   "heroSettings": {
     "home": {
-      "description": "Join the conference, learn new things!",
+      "description": "What Next In a Post Pandemic World?",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"
       },
       "fontColor": "#FFF"
     },
-    "blog": {
-      "title": "Blog",
-      "metaDescription": "Read stories from our team",
-      "background": {
-        "color": "#FFF"
-      },
-      "fontColor": "#424242"
-    },
     "speakers": {
       "title": "Speakers",
       "metaDescription": "Hear from Guest Speakers who are leading in their various fields from different parts of the world!. Check back often as we add more speakers",
       "description": "Hear from Guest Speakers who are leading in their various fields from different parts of the world!. Check back often as we add more speakers",
-      "background": {
-        "color": "#FFF"
-      },
-      "fontColor": "#424242"
-    },
-    "previousSpeakers": {
-      "title": "Previous Speakers",
-      "metaDescription": "Check who was with us last years",
       "background": {
         "color": "#FFF"
       },
@@ -113,9 +92,9 @@
   },
   "location": {
     "label": "Location",
-    "name": "Planeta kino",
-    "city": "Lviv",
-    "short": "Lviv, Ukraine",
+    "name": "ECX Unilag",
+    "city": "Online",
+    "short": "Online",
     "address": "36 Shchyretska St, Lviv, Ukraine",
     "pointer": {
       "latitude": 49.809841,
@@ -147,12 +126,8 @@
   "socialNetwork": {
     "follow": [
       {
-        "name": "meetup",
-        "url": "https://www.meetup.com/GDG-Lviv/events/244342635/"
-      },
-      {
         "name": "facebook",
-        "url": "https://www.facebook.com/devfest.ukraine/"
+        "url": "https://www.facebook.com/"
       },
       {
         "name": "twitter",
@@ -207,18 +182,8 @@
     "schedule": {
       "itemsCount": 2
     },
-    "blog": {
-      "itemsCount": 3
-    },
     "speakers": {
       "itemsCount": 4
-    },
-    "previousSpeakers": {
-      "itemsCount": 6
-    },
-    "tickets": {
-      "itemsCount": 5
     }
-  },
-  "showForkMeBlockForProjectIds": ["hoverboard-master", "hoverboard-dev"]
+  }
 }
